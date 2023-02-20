@@ -1,7 +1,8 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import {Avatar, Grid} from "@mui/material";
-import Chart from "@/components/Chart";
+import Chart from "../Chart";
+
 
 
 const dataFaceInfo=[
@@ -163,6 +164,7 @@ export default function Main() {
                     borderRadius: "10px", height:'290px'}} display={"flex"} justifyContent={"center"}>
                     <Box display={"flex"} justifyContent={"center"}>
                         <Chart></Chart>
+                        {/*<Typography>Bu yerda chart bulishi kerak</Typography>*/}
                     </Box>
                 </Box>
                 <Box width={"25%"}>
